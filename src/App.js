@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import FullName from './Components/Prps';
+// import InputCounter from './Components/InputCounter';
+// import ShowText from './Components/ShowText';
+// import CounterHocks from './Components/CounterHocks';
+// import Counter from './Components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Counter /> */}
+      {/* <CounterHocks /> */}
+
+      {/* <InputCounter /> */}
+      {/* <ShowText /> */}
+
+      {/*  properties */}
+
+      <FullName name="Ethio 360" addiress="USA" />
+      <FullName name="Asrat" addiress="Ethiopia" />
+      <FullName name= "Mereja " addiress="London" />
+
+
+     
     </div>
   );
 }
